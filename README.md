@@ -1,132 +1,70 @@
-# Sistema WB - Interface Gráfica (Frontend)
+# Getting Started with Create React App
 
-Bem-vindo à documentação oficial do projeto de interface gráfica do Sistema WB. Este projeto foi desenvolvido para o Grupo World Beauty (WB) com o objetivo de modernizar e facilitar o uso do sistema por meio de uma interface web responsiva, intuitiva e acessível em qualquer dispositivo.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 📋 Sumário
+In the project directory, you can run:
 
-- [Visão Geral](#visão-geral)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Executar o Projeto](#como-executar-o-projeto)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Padrões de Desenvolvimento](#padrões-de-desenvolvimento)
-- [Funcionalidades das Telas](#funcionalidades-das-telas)
-- [Customização e Temas](#customização-e-temas)
-- [Contribuição](#contribuição)
-- [Contato](#contato)
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Visão Geral
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-O Sistema WB foi projetado para atender todas as franquias do Grupo World Beauty, proporcionando uma experiência moderna e eficiente para os usuários. A interface gráfica (GUI) foi construída com foco em usabilidade, responsividade e facilidade de navegação, garantindo que qualquer colaborador, independente do dispositivo, consiga operar o sistema sem dificuldades.
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Tecnologias Utilizadas
+### `npm run build`
 
-- React 17+ (componentes de função e hooks)
-- JavaScript (ES6+)
-- Bootstrap 5 (design responsivo)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) (testes unitários)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-> **Observação:** O projeto utiliza Bootstrap para garantir responsividade e um design moderno.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Como Executar o Projeto
+### `npm run eject`
 
-**Pré-requisitos:**
-- Node.js (versão 14 ou superior)
-- npm ou yarn
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Instalação:**
-```sh
-npm install
-# ou
-yarn install
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**Execução:**
-```sh
-npm start
-# ou
-yarn start
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**Acesso:**  
-Abra o navegador e acesse [http://localhost:3000](http://localhost:3000)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-## Estrutura do Projeto
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```
-src/
-  componentes/
-    barraNavegacao.js
-    formularioCadastroCliente.js
-    listaCliente.js
-    roteador.js
-  App.js
-  index.js
-  index.css
-public/
-  index.html
-  ...
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- **componentes/**: Todos os componentes React de cada tela e funcionalidade.
-- **App.js**: Componente principal da aplicação.
-- **index.js**: Ponto de entrada da aplicação.
-- **index.css**: Estilos globais e customização.
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Padrões de Desenvolvimento
+### Analyzing the Bundle Size
 
-- **Componentes de Função e Hooks:**  
-  Todos os componentes React são implementados como funções utilizando hooks (`useState`, etc.), seguindo as práticas modernas do React.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- **Responsividade:**  
-  Layout adaptável para desktop, tablets e celulares com Bootstrap.
+### Making a Progressive Web App
 
-- **Design Moderno:**  
-  Uso de cores suaves e componentes visuais agradáveis.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- **Sem Backend:**  
-  Este projeto é um pré-projeto de interface, sem integração com banco de dados ou APIs.
+### Advanced Configuration
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Funcionalidades das Telas
+### Deployment
 
-- **Home:**  
-  Tela inicial com navegação para Clientes.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-- **Clientes:**  
-  - Cadastro de cliente  
-  - Listagem de clientes  
-  - (Futuro: Atualizar e excluir clientes, listagens especiais)
+### `npm run build` fails to minify
 
----
-
-## Customização e Temas
-
-O tema principal utiliza tons claros (azul), podendo ser alterado no arquivo `index.css` e nos componentes.
-
----
-
-## Contribuição
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nome`)
-3. Commit suas alterações (`git commit -am 'Adiciona nova feature'`)
-4. Push para o branch (`git push origin feature/nome`)
-5. Abra um Pull Request
-
----
-
-Desenvolvido para o Grupo World Beauty (WB) - 2025  
-Documentação criada para uso interno e treinamento de colaboradores.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
